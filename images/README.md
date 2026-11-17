@@ -80,12 +80,6 @@ flowchart LR
 - I kept the public-access settings from my earlier project. Replication itself doesn't need public access, so for real data I would keep **Block Public Access on**.
 - I deleted all resources after testing.
 
-## Next steps
-
-- Try replication with a **bucket policy** instead of ACLs
-- Compare **same-region replication** with cross-region replication
-- Automate the setup with the AWS CLI or Terraform
-
 ## Tools
 
 AWS Console, Amazon S3, IAM, S3 Batch Operations
